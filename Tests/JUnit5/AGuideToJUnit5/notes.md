@@ -115,7 +115,34 @@ static void done() {
 
 
 <h1><strong>5. Assertions and Assumptions</h1></strong>
-<p>JUnit5 tries to taku full advantage of the new features from Java 8, especially lambda expressions.</p>
+<p>JUnit5 tries to take full advantage of the new features from Java 8, especially lambda expressions.</p>
+
+~~~Java
+@Test
+void lambdaExpressions() {
+    List numbers = Arrays.asList(1, 2, 3);
+    assertTrue(numbers.stream()
+      .mapToInt(Integer::intValue)
+      .sum() > 5, () -> "Sum should be greater than 5");
+}
+~~~
+
+<p>Although the example above is trivial, one advantage of using the lambda expression for the assertion message is that it’s lazily evaluated, which can save time and resources if the message construction is expensive.</p>
+<p>It’s also now possible to group assertions with assertAll(), which will report any failed assertions within the group with a MultipleFailuresError:</p>
+
+~~~Java
+@Test
+ void groupAssertions() {
+     int[] numbers = {0, 1, 2, 3, 4};
+     assertAll("numbers",
+         () -> assertEquals(numbers[0], 1),
+         () -> assertEquals(numbers[3], 3),
+         () -> assertEquals(numbers[4], 1)
+     );
+ }
+~~~
+
+<p>This means it’s now safer to make more complex assertions, as we’ll be able to pinpoint the exact location of any failure.</p>
 
 <h2><strong></strong></h2>
 
