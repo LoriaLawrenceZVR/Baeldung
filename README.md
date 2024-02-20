@@ -1,5 +1,7 @@
 <h1 align=center>BAELDUNG STUDIES</h1>
-<p>Repository for Baeldung studies, more specifically:</p>
+<p>Repostiroy oriented for Baeldung study content</p>
+<hr>
+<h2>Summary</h2>
 <ul>
   <li>
     <h3>Tests</h3>
