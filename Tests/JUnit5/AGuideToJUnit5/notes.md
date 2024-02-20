@@ -8,7 +8,7 @@
 <h1><strong>2. Maven Dependencies</strong></h1>
 <p>Setting up to <strong>JUnit5.x.0</strong> is pretty straightfoward: we just need to add th following dependency to out pom.xml:</p>
 
-~~~
+~~~Java
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-engine</artifactId>
@@ -48,8 +48,85 @@
     <li><span><strong>@Disabled</strong> – disables a test class or method (previously @Ignore)</span></li>
 </ul>
 
+<h2><strong>3.3. JUnit Vintage</strong></h2>
+<p>JUnit Vintage supports running tests based on JUNit3 and JUNit4 on the JUnit5 plataform</p>
+
 
 <hr>
 
 
-<h1><strong></strong></h1>
+<h1><strong>4. Basic Annotations</strong></h1>
+<p>To discuss the new annotations, we divided this section into the following groups responsible for execution: before the tests, during the tests (optional), and after the tests.</p>
+
+<h2><strong>4.1. @BeforeAll and @BeforeEach</strong></h2>
+<p>Below is an examplo of the simple code to be executed before the main test cases:</p>
+
+~~~Java
+@BeforeAll
+static void setup() {
+    log.info("@BeforeAll - executes once before all test methods in this class");
+}
+
+@BeforeEach
+void init() {
+    log.info("@BeforeEach - executes before each test method in this class");
+}
+~~~
+
+<p>It’s important to note that the method with the @BeforeAll annotation needs to be static, otherwise the code won’t compile.</p>
+
+<h2><strong>4.2. @DisplayName and @Disabled</strong></h2>
+<p>Now let's move to new test-optional methods:</p>
+
+~~~Java
+@DisplayName("Single test successful")
+@Test
+void testSingleSuccessTest() {
+    log.info("Success");
+}
+
+@Test
+@Disabled("Not implemented yet")
+void testShowSomething() {
+}
+~~~
+
+<p>As we can see, we can change the display name or disable the method with a comment, using new annotations.</p>
+
+<h2><strong>4.3. @AfterEach and @AfterAll</strong></h2>
+<p>Finally, let’s discuss the methods connected to operations after test execution:</p>
+
+~~~Java
+@AfterEach
+void tearDown() {
+    log.info("@AfterEach - executed after each test method.");
+}
+
+@AfterAll
+static void done() {
+    log.info("@AfterAll - executed after all test methods.");
+}
+~~~
+
+<p>Please note that the method with @AfterAll also needs to be a static method.</p>
+
+
+<hr>
+
+
+<h1><strong>5. Assertions and Assumptions</h1></strong>
+<p>JUnit5 tries to taku full advantage of the new features from Java 8, especially lambda expressions.</p>
+
+<h2><strong></strong></h2>
+
+<h2><strong></strong></h2>
+
+<h2><strong></strong></h2>
+
+<h2><strong></strong></h2>
+
+<h2><strong></strong></h2>
+
+<h2><strong></strong></h2>
+
+<h2><strong></strong></h2>
