@@ -19,7 +19,7 @@
         <span>JUnit5 (<a href="https://www.baeldung.com/category/testing/tag/junit-5">Baeldung summary page</a>)</span>
         <ul>
           <li>
-            <span>1 - A Guide to JUnit5 (<a href="https://github.com/LoriaLawrenceZVR/Baeldung/tree/main/Tests/JUnit5/AGuideToJUnit5/notes" target="_blank">notes.md<a> | <a href="https://www.baeldung.com/junit-5">Baeldung page</a>)</span>
+            <span>1 - A Guide to JUnit5 (<a href="https://github.com/LoriaLawrenceZVR/Baeldung/tree/main/Tests/JUnit5/AGuideToJUnit5/notes.md" target="_blank">notes.md<a> | <a href="https://www.baeldung.com/junit-5">Baeldung page</a>)</span>
           </li>
         </ul>
       </li>
