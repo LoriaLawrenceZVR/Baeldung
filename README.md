@@ -9,9 +9,11 @@
       <li>
         <span>Mockito (<a href="https://www.baeldung.com/category/testing/tag/mockito" target="_blank">Baeldung summary page</a>)</span>
         <ul>
-          <li><span>1 - Getting Started with Mockito @Mock, @Spy, @Captor and @InjectMocks</span> (<a href="" target="_blank">directory path<a> | <a href="https://www.baeldung.com/mockito-annotations">Baeldung page</a>)</li>
+          <li><span>1 - Getting Started with Mockito @Mock, @Spy, @Captor and @InjectMocks</span> (<a href="[1]" target="_blank">directory path<a> | <a href="https://www.baeldung.com/mockito-annotations">Baeldung page</a>)</li>
         </ul>
       </li>
     </ul>
   </li>
 </ul>
+
+[1](https://github.com/LoriaLawrenceZVR/Baeldung/tree/main/Tests/Mockito/GettingStartedWithMockito)
