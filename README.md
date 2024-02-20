@@ -4,7 +4,12 @@
   <li>
     <h3>Tests</h3>
     <ul>
-      <li><a href="https://www.baeldung.com/category/testing/tag/mockito" target="_blank">Mockito</a></li>
+      <li>
+        <span>Mockito (<a href="https://www.baeldung.com/category/testing/tag/mockito" target="_blank">Baeldung summary page</a>)</span>
+        <ul>
+          <li><span>1 - Getting Started with Mockito @Mock, @Spy, @Captor and @InjectMocks</span> (<a href="" target="_blank">directory path<a> | <a href="https://www.baeldung.com/mockito-annotations">Baeldung page</a>)</li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
