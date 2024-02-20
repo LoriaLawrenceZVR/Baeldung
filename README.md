@@ -1,7 +1,11 @@
-<h1 align=center>BAELDUNG STUDIES</h1>
+<h1 align=center>🍃BAELDUNG STUDIES🍃</h1>
 <p>Repostiroy oriented for Baeldung study content</p>
+
+
 <hr>
-<h2>Summary</h2>
+
+
+<h2>📌 Summary</h2>
 <ul>
   <li>
     <h3>Tests</h3>
@@ -35,5 +39,5 @@
 <hr>
 
 
-<h3>Credits:</h3>
+<h2>🏆 Credits</h2>
 <span>Thanks <a href="https://www.baeldung.com/">BAELDUNG</a>!</span>
