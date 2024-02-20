@@ -17,3 +17,8 @@
 </ul>
 
 [directory path](https://github.com/LoriaLawrenceZVR/Baeldung/tree/main/Tests/Mockito/GettingStartedWithMockito)
+
+
+<hr>
+<h3>Credits:</h3>
+<span>Thanks <a href="https://www.baeldung.com/">BAELDUNG</a>!</span>
