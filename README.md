@@ -16,13 +16,16 @@
           <ul>
             <li>
               <details close>
-          <summary><span>Back To Basics (<a href="https://www.baeldung.com/java-tutorial">Baeldung summary page</a>)</span></summary>
-          <ul>
-            <li>
-              <span>1 - A Guide to JUnit5 (<a href="https://github.com/LoriaLawrenceZVR/Baeldung/tree/main/Tests/JUnit5/AGuideToJUnit5/notes.md" target="_blank">notes.md<a> | <a href="https://www.baeldung.com/junit-5">Baeldung page</a>)</span>
-            </li>
-          </ul>
-        </details>
+                <summary><span>5. Java Streams (<a href="https://www.baeldung.com/java-streams">Baeldung summary page</a>)</span></summary>
+                <ul>
+                  <li>
+                    <span>Introduction to Java 8 (<a href="https://github.com/LoriaLawrenceZ/Baeldung/blob/main/BackToBasics/Streams/StreamBasics/IntroductionToStreams.md" target="_blank">notes.md<a> | <a href="https://www.baeldung.com/java-8-streams-introduction">Baeldung page</a>)</span>
+                  </li>
+                  <li>
+                    <span>The Java 8 Stream API (<a href="https://github.com/LoriaLawrenceZ/Baeldung/blob/main/BackToBasics/Streams/StreamBasics/StreamAPITutorial.md" target="_blank">notes.md<a> | <a href="https://www.baeldung.com/java-8-streams">Baeldung page</a>)</span>
+                  </li>
+                </ul>
+              </details>
             </li>
           </ul>
         </details>
